@@ -1,0 +1,63 @@
+@import url(//db.onlinewebfonts.com/c/1daa609fdca8da38e5bcbb12c2a987db?family=DINNextW01-Regular);
+
+* {
+  box-sizing: border-box;
+}
+body {
+  height: auto;
+  font-family: "DINNextW01-Regular";
+}
+
+h3 {
+  color: rgb(95, 93, 93);
+  font-size: 1.8em;
+  font-weight: 480;
+}
+
+section {
+  margin: 4% auto;
+  width: 350px;
+  height: 500px;
+  text-align: center;
+  box-shadow: grey -2px 2px 7px 0px;
+}
+
+img {
+  width: 114px;
+  height: 114px;
+  margin-top: 20px;
+}
+
+input {
+  width: 275px;
+  height: 50px;
+  padding: 10px 20px;
+  font-size: 0.9em;
+  border-radius: 5px 5px 0px 0px;
+  border: 0.5px solid grey;
+}
+
+input[type="password"] {
+  border-top: none;
+  margin-bottom: 20px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+input[type="button"] {
+  border: none;
+  background-color: rgb(3, 3, 78);
+  margin-bottom: 30px;
+  border-radius: 5px;
+  color: white;
+  font-size: 0.8em;
+  font-weight: 1000;
+}
+
+a {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: rgba(59, 58, 58, 0.856);
+  border: 0.5px solid grey;
+  border-radius: 20px;
+  padding: 5px 10px;
+}

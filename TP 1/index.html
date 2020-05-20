@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css" />
+    <title>Películas</title>
+  </head>
+
+  <body>
+    <!-- Título -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Iniciar sesión</a></li>
+          <li><a href="#">Registrarse</a></li>
+        </ul>
+      </nav>
+      <h1>Top 5 Películas</h1>
+    </header>
+    <!-- Instrucciones para el usuario -->
+    <p>
+      Ingrese el nombre de sus 5 películas favoritas en orden de importancia. Se
+      generará una tabla con información de interés acerca de las películas
+      elegidas. <br />
+      Si tiene menos de 5 películas favoritas, puede dejar sin rellenar algunos
+      campos.
+    </p>
+
+    <!-- Formulario -->
+    <div class="container">
+      <section class="form">
+        <form action="#" method="POST">
+          <label for="pelicula_1">Película 1</label><br />
+          <input
+            type="text"
+            name="pelicula_1"
+            id="pelicula_1"
+            placeholder="Ingrese el título de una película"
+          /><br />
+          <label for="pelicula_2">Película 2</label><br />
+          <input
+            type="text"
+            name="pelicula_2"
+            id="pelicula_2"
+            placeholder="Ingrese el título de una película"
+          /><br />
+          <label for="pelicula_3">Película 3</label><br />
+          <input
+            type="text"
+            name="pelicula_3"
+            id="pelicula_3"
+            placeholder="Ingrese el título de una película"
+          /><br />
+          <label for="pelicula_4">Película 4</label><br />
+          <input
+            type="text"
+            name="pelicula_4"
+            id="pelicula_4"
+            placeholder="Ingrese el título de una película"
+          /><br />
+          <label for="pelicula_5">Película 5</label><br />
+          <input
+            type="text"
+            name="pelicula_5"
+            id="pelicula_5"
+            placeholder="Ingrese el título de una película"
+          /><br /><br />
+
+          <!-- Botón que no hace nada lógicamente. La idea sería que según lo ingresado en el formulario 
+          se pueda conseguir la info de cada película según Wikipedia. -->
+          <input type="submit" name="enviar" id="enviar" value="> Enviar" />
+        </form>
+        <br />
+      </section>
+      <!-- Fin Formulario -->
+
+      <!-- Tabla Ejemplo -->
+      <div></div>
+      <section>
+        <h2>Ejemplo</h2>
+        <p>
+          A continuación se muestra un ejemplo si eligiera <span>sólo</span> una
+          película.
+        </p>
+        <table>
+          <!-- Encabezado -->
+          <thead>
+            <tr>
+              <th>Portada</th>
+              <th>Título</th>
+              <th>Año de estreno</th>
+              <th>Director</th>
+              <th>Cast</th>
+            </tr>
+          </thead>
+          <!-- Cuerpo -->
+          <tbody>
+            <tr>
+              <td>
+                <img
+                  src="img/pulpfiction.jpg"
+                  alt="Portada de Pulp fiction"
+                  title="Pulp Fiction"
+                  width="100px"
+                  height="150px"
+                />
+              </td>
+              <td>
+                <a href="https://en.wikipedia.org/wiki/Pulp_Fiction"
+                  >Pulp Fiction</a
+                >
+              </td>
+              <td>1994</td>
+              <td>Quentin Tarantino</td>
+              <td>
+                John Travolta,<br />
+                Samuel L. Jackson,<br />
+                Uma Thurman,<br />
+                Harvey Keitel, etc
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- Fin tabla -->
+        <small
+          >Fuente:
+          <a href="https://wikipedia.org" target="_blank">Wikipedia</a>
+        </small>
+      </section>
+      <br />
+    </div>
+    <!-- Footer -->
+    <footer>Ciro Villasanti &copy; 2020</footer>
+  </body>
+</html>
