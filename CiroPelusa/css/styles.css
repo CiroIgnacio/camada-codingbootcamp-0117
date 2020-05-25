@@ -293,15 +293,12 @@ footer {
     display: block;
   }
   nav:hover {
-    display:block;
+    display: block;
   }
   .buy-tickets::before {
-  
     border: 1px solid rgb(228, 228, 228);
-
   }
   .buy-tickets::after {
-
     border: 1px solid rgb(228, 228, 228);
   }
   nav {
@@ -318,7 +315,7 @@ footer {
     display: block;
     float: right;
   }
-  nav  li {
+  nav li {
     display: block;
     margin: 15px 0px;
   }
@@ -362,7 +359,7 @@ footer {
 
   .line-up ul {
     padding: 25px;
-    margin:0px;
+    margin: 0px;
   }
   .controls {
     display: block;
