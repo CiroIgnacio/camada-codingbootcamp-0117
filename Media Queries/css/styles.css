@@ -114,8 +114,8 @@ h3 {
 
 .prod-container {
   border: 1px solid rgba(126, 123, 123, 0.918);
-  border-radius:5px;
-  width:270px;
+  border-radius: 5px;
+  width: 270px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -126,7 +126,7 @@ h3 {
 span {
   margin-right: 15px;
   margin-top: 10px;
-  display:inline-block;
+  display: inline-block;
 }
 .rebajado {
   color: red;

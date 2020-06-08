@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es-ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Ciro Villasanti</title>
+    <script src="https://kit.fontawesome.com/31f84c015f.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="box-border">
+    <header id="inicio" class="lg:fixed w-full z-50">
+        <nav class="flex items-center justify-between flex-wrap bg-gray-300 p-6">
+            <div class="flex items-center flex-shrink-0 text-white mr-6">
+                <span class="font-semibold text-xl text-gray-600">Ciro Villasanti</span>
+            </div>
+            <div class="block lg:hidden">
+                <button class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-500 hover:text-gray-700 hover:border-gray-700">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+            </div>
+            <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto lg:text-center">
+                <div class="text-sm lg:flex-grow">
+                    <a href="#inicio" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 mr-6">
+            Inicio
+          </a>
+                    <a href="#servicios" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 mr-6">
+            Servicios
+          </a>
+                    <a href="#clientes" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600 mr-6">
+            Clientes
+          </a>
+                    <a href="#contacto" class="block mt-4 lg:inline-block lg:mt-0 text-gray-600">
+            Contacto
+          </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="servicios" class="max-w-full flex justify-center lg:flex-row lg:items-stretch flex-col items-center pt-32">
+        <div class="max-w-xs mx-8 rounded overflow-hidden shadow-lg h-auto">
+            <img class="w-full imagen-card" src="/img/desarrollo.png" alt="Desarrollo web">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 pt-10">Desarrollo Web</div>
+                <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+            </div>
+        </div>
+        <div class="max-w-xs mx-8 rounded my-20 lg:m-0 overflow-hidden shadow-lg">
+            <img class="w-full imagen-card" src="/img/diseño.jpg" alt="Diseño web">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 pt-10">Diseño Web</div>
+                <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+            </div>
+        </div>
+        <div class="max-w-xs rounded overflow-hidden mx-8 shadow-lg">
+            <img class="w-full imagen-card" src="/img/custom.jpg" alt="Custom service">
+            <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 pt-10">Custom Service</div>
+                <p class="text-gray-700 text-base">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div id="clientes" class="h-12"></div>
+    <div>
+        <h1 class="text-center text-3xl mt-16 mb-6 font-bold">Clientes</h1>
+        <p class="text-center mx-auto" style="width: 80%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, odit assumenda quos quis eveniet natus! Accusamus odio aut corporis impedit? Voluptatibus repudiandae repellendus, harum magni consequuntur officia veritatis suscipit accusantium.</p>
+        <div class="flex mx-auto my-20 justify-around items-center flex-col lg:flex-row h-auto">
+            <div class="lg:mx-2 empresa-cont relative lg:w-1/4 w-3/4 h-64 flex justify-center items-center flex-wrap hover:bg-black">
+                <p class="hidden text-3xl nombre-empresa">Adidas</p><img class="w-56 h-40" src="img/empresas/adidas.jpg" alt="">
+            </div>
+            <div class="lg:mx-2 mt-4 empresa-cont relative lg:w-1/4 w-3/4 h-64 flex justify-center items-center flex-wrap hover:bg-black">
+                <p class="hidden text-3xl nombre-empresa">Burger King</p><img class="w-64 h-40" src="img/empresas/burger.png" alt="">
+            </div>
+            <div class="lg:mx-2 mt-4 empresa-cont relative lg:w-1/4 w-3/4 h-64 flex justify-center items-center flex-wrap hover:bg-black">
+                <p class="hidden text-3xl nombre-empresa">Mercado Libre</p><img class="w-64 h-40" src="img/empresas/ml.jpg" alt="">
+            </div>
+            <div class="lg:mx-2 mt-4 empresa-cont relative lg:w-1/4 w-3/4 h-64 flex justify-center items-center flex-wrap hover:bg-black">
+                <p class="hidden text-3xl nombre-empresa">Toyota</p><img class="w-56 h-40" src="img/empresas/toyota.jpg" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="contacto" class="h-12"></div>
+    <h1 class="text-center text-3xl mb-6 font-bold pt-12">Contacto</h1>
+    <div class="flex items-center justify-center w-full py-12">
+        <form class="w-9/12 lg:w-8/12 flex flex-col items-center">
+            <div class="lg:w-6/12 w-10/12 mb-6">
+                <div>
+                    <label class="block text-gray-500 font-bold pb-4" for="inline-full-name">
+            Nombre
+          </label>
+                </div>
+                <div class="w-6/6">
+                    <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-teal-500" id="inline-full-name" type="text" placeholder="Ingrese su nombre">
+                </div>
+            </div>
+            <div class="lg:w-6/12 w-10/12 mb-6">
+                <div>
+                    <label class="block text-gray-500 font-bold mb-4 pr-4" for="inline-username">
+            Email
+          </label>
+                </div>
+                <div class="w-6/6">
+                    <input class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-teal-500" id="inline-username" type="email" placeholder="email@dominio.com">
+                </div>
+            </div>
+            <div class="lg:w-6/12 mb-6 w-10/12">
+                <div>
+                    <label class="block text-gray-500 font-bold mb-4 pr-4" for="inline-username">
+            Mensaje
+          </label>
+                </div>
+                <div class="w-6/6">
+                    <textarea class="bg-gray-200 appearance-none border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-teal-500" id="inline-username" placeholder="Escriba aquí..." rows="4"></textarea>
+                </div>
+            </div>
+            <div class="items-center">
+                <div class="w-1/6">
+                    <button class="shadow bg-teal-500 hover:bg-teal-700 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-6 rounded" type="button">
+            Enviar
+          </button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <footer class="max-w-full min-h-64 bg-gray-300 flex justify-around items-center flex-wrap flex-col lg:flex-row">
+        <div class="social lg:w-4/12 w-9/12 flex justify-center py-12">
+            <a href="#"><i class="fa fa-twitter-square fa-3x fa-lg" aria-hidden="true"></i></a>
+            <a href="#" class="mx-2"><i class="fa fa-3x fa-lg fa-linkedin-square" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-3x fa-lg fa-github-square" aria-hidden="true"></i></a>
+        </div>
+        <form class="lg:w-4/12 py-12 w-10/12">
+            <div class="flex items-center border-b border-b-2 border-teal-500 py-2">
+                <input class="appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="email@dominio.com" aria-label="Full name">
+                <button class="flex-shrink-0 bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 font-semibold border-4 text-white py-1 px-2 rounded" type="button">
+          Suscribirse
+        </button>
+            </div>
+        </form>
+        <div class="lg:w-4/12 flex justify-center py-12 w-9/12">
+            <ul>
+                <li><i class="fa fa-mobile" aria-hidden="true"></i><span class="ml-2">1123922909</span></li>
+                <li class="my-4"><i class="fa fa-map-marker" aria-hidden="true"></i><span class="ml-2">Berazategui, Buenos
+            Aires</span></li>
+                <li><i class="fa fa-envelope" aria-hidden="true"></i></i><span class="ml-2">villasanticiro@gmail.com</span></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
