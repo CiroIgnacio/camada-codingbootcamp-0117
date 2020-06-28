@@ -7,13 +7,13 @@
       content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=0"
     />
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <link rel="shortcut icon" href="img/dj.ico" type="image/x-icon" />
     <title>Ciro Pelusa</title>
   </head>
   <body>
     <header class="nav-bar">
       <h1 class="logo">CiroPelusa</h1>
       <div class="toggler-container">
-        <div class="toggler"></div>
         <div class="toggler"></div>
         <div class="toggler"></div>
         <div class="toggler"></div>
@@ -25,7 +25,11 @@
           <li><a href="#line-up">Line Up</a></li>
           <li><a href="#">Información</a></li>
           <li><a href="#">Contacto</a></li>
-          <li><button class="buy-tickets">Comprar Tickets!</button></li>
+          <li>
+            <a href="login.html"
+              ><button class="buy-tickets">Comprar Tickets!</button></a
+            >
+          </li>
         </ul>
       </nav>
     </header>
@@ -34,16 +38,17 @@
         <div class="card">
           <div class="band-info">
             <p>
-              Con 60 años de edad es el ex cantante de The Smiths, además de
-              compositor y autor. Lleva más de 40 años de trayectoria musical.
+              Fundada en 1994 por Dave Grohl, ex baterista de Nirvana. Es una de
+              las bandas de rock con más convocatoria e influencia en la
+              actualidad.
             </p>
           </div>
           <div class="card-footer">
-            <a href="https://www.morrissey-solo.com/" target="_blank"
-              >Morrissey</a
+            <a href="https://www.foofighters.com/" target="_blank"
+              >Foo Fighters</a
             >
           </div>
-          <img src="img/mozz2.jpg" alt="Morrissey picture" />
+          <img src="img/foo-fighters.png" alt="Foo Fighters picture" />
         </div>
         <div class="card slide-in" id="item2">
           <div class="band-info">
@@ -91,17 +96,16 @@
         <div class="card slide-in" id="item5">
           <div class="band-info">
             <p>
-              Fundada en 1994 por Dave Grohl, ex baterista de Nirvana. Es una de
-              las bandas de rock con más convocatoria e influencia en la
-              actualidad.
+              Con 60 años de edad es el ex cantante de The Smiths, además de
+              compositor y autor. Lleva más de 40 años de trayectoria musical.
             </p>
           </div>
           <div class="card-footer">
-            <a href="https://www.foofighters.com/" target="_blank"
-              >Foo Fighters</a
+            <a href="https://www.morrissey-solo.com/" target="_blank"
+              >Morrissey</a
             >
           </div>
-          <img src="img/foo-fighters.png" alt="Foo Fighters picture" />
+          <img src="img/mozz2.jpg" alt="Morrissey picture" class="david" />
         </div>
         <div class="card slide-in" id="item6">
           <div class="band-info">
@@ -163,7 +167,9 @@
       <a href="#">Ver Line Up!</a>
       <div id="line-up-full" class="list-container">
         <ul>
-          Vie 24/7
+          <span class="fecha"
+            >Vie 26/7 <img src="img/calendario.png" alt=""
+          /></span>
           <li>
             <a href="">Arctic Monkeys</a>
           </li>
@@ -181,7 +187,9 @@
           </li>
         </ul>
         <ul>
-          Sab 28/7
+          <span class="fecha"
+            >Sab 27/7 <img src="img/calendario.png" alt=""
+          /></span>
           <li>
             <a href="">Foo Fighters</a>
           </li>
@@ -199,7 +207,9 @@
           </li>
         </ul>
         <ul>
-          Dom 29/7
+          <span class="fecha"
+            >Dom 28/7 <img src="img/calendario.png" alt=""
+          /></span>
           <li>
             <a href="">Morrissey</a>
           </li>
@@ -222,6 +232,7 @@
       <div class="fest-info">
         <div class="info date">
           <h3>Fechas - Horarios</h3>
+          <div class="info-icon"><img src="img/calendario.png" alt="" /></div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero culpa
             explicabo sapiente delectus, ratione dolorum quo voluptas fugiat
@@ -231,6 +242,7 @@
         </div>
         <div class="info ubication">
           <h3>Ubicación</h3>
+          <div class="info-icon"><img src="img/alfiler.png" alt="" /></div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
             corporis nam repudiandae omnis amet! Voluptas sed, praesentium quia
@@ -240,6 +252,7 @@
         </div>
         <div class="info FAQ">
           <h3>FAQ</h3>
+          <div class="info-icon"><img src="img/pregunta.png" alt="" /></div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quia
             expedita sunt esse illum necessitatibus sint qui corrupti provident
@@ -250,10 +263,35 @@
       </div>
     </section>
     <footer>
+      <div class="footer-h">
+        <div class="icon-cont">
+          <div class="footer-icon"><img src="img/facebook.png" alt="" /></div>
+          <div class="footer-icon"><img src="img/instagram.png" alt="" /></div>
+          <div class="footer-icon"><img src="img/youtube.png" alt="" /></div>
+        </div>
+        <div class="menu">
+          <ul>
+            <li><a href="#">⇀ &nbsp;&nbsp; Inicio</a></li>
+            <li><a href="#line-up">⇀ &nbsp;&nbsp; Line Up</a></li>
+            <li><a href="#">⇀ &nbsp;&nbsp;Información</a></li>
+            <li><a href="#">⇀ &nbsp;&nbsp;Contacto</a></li>
+            <li><a href="login.html">⇀ &nbsp;&nbsp;Comprar Tickets!</a></li>
+          </ul>
+        </div>
+        <div class="contacto">
+          <h2>Contacto</h2>
+          <div class="icon-cont">
+            <div class="footer-icon"><img src="img/whatsapp.png" alt="" /></div>
+            <div class="footer-icon"><img src="img/telefono.png" alt="" /></div>
+            <div class="footer-icon"><img src="img/alfiler.png" alt="" /></div>
+          </div>
+          <p>Oficinas: Av. Suedehead 1234, Under the Milky Way CP 1984</p>
+        </div>
+      </div>
       <p>CiroPelusa &copy; 2020</p>
     </footer>
     <!-- <script>
-      if (screen.width < 600) {
+      if (screen.width < 800) {
           iniciarCarousel();
       }
     function iniciarCarousel () {
