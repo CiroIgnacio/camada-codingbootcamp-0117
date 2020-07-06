@@ -387,6 +387,7 @@ footer > p {
 .footer-icon:hover {
   padding: 12px;
   cursor:pointer;
+  filter: brightness(110%);
   transform: scale(0.97);
   -webkit-box-shadow: inset 7px 10px 192px 102px rgba(250,240,250,1);
   -moz-box-shadow: inset 7px 10px 192px 102px rgba(250,240,250,1);
@@ -592,7 +593,7 @@ footer > p {
 
 .form-container > form {
   display: flex;
-  padding: 50px 80px;
+  padding: 50px 85px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
